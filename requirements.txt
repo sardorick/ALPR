@@ -6,3 +6,4 @@ opencv-python
 pandas
 pytesseract==0.3.9
 tensorboard
+flask-sqlalchemy

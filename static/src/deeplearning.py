@@ -120,7 +120,7 @@ def object_detection(path,filename):
     image = cv2.imread(path) # PIL object
     image = np.array(image,dtype=np.uint8) # 8 bit array (0,255)
     result_img, text_list = yolo_predictions(image,net)
-    cv2.imwrite('./static/predict/{}'.format(filename),result_img)
+    cv2.imwrite('../static/predict/{}'.format(filename),result_img)
     return text_list
 
 
